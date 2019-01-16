@@ -1,27 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import './styles/index.css';
+import MapContainer from './components/MapContainer';
+import BurgerMenu from './components/BurgerMenu';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      <div  id="outer-container">
+           <BurgerMenu outerContainerId="outer-container" pagerWrapId="page-wrap" />
+           <MapContainer id="page-wrap"/>
+    </div>);
   }
 }
 

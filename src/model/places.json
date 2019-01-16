@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Le Cinq",
+    "latitude": "48.8688",
+    "longitude": "2.30083"
+  },
+  {
+    "id": 2,
+    "name": "Pierre gagnaire",
+    "latitude": "48.87188099999999",
+    "longitude": "2.3419189999999617"
+  },
+  {
+    "id": 3,
+    "name": "Le Gabriel",
+    "latitude": "48.8697628",
+    "longitude": "2.3132848000000195"
+  },
+  {
+    "id": 4,
+    "name": "Chez Michel",
+    "latitude": "48.8795526",
+    "longitude": "2.352264200000036"
+  },
+  {
+    "id": 5,
+    "name": "Nana",
+    "latitude": "48.856705",
+    "longitude": "2.3720593000000463"
+  }
+]
