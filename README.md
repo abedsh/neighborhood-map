@@ -1,3 +1,28 @@
+# Description
+
+An item catalog web app
+
+# Install
+This project's dependencies are all listed in package.json under dependency, but you would need create-react-app installed globally to run it
+
+
+# Code
+
+actions/ Defines the flux action  class
+components/BurgerMenu - Defines the BurgerMenu component
+components/MapContainer - Defines the map component
+model/places - Defines places json file
+stores/MapMarkerStore - Defines the flux store class
+styles/ - Defines styles used by app and menu
+utils/constants - Defines constants used for events
+
+# How to
+
+Navigate to the neighborhood-map folder and run with npm start
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
